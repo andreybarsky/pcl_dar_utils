@@ -12,7 +12,7 @@ import scipy.stats as stats
 from sklearn import metrics
 import matplotlib.pyplot as plt
 
-from pcl_metrics import MetricsLogger, evaluate
+from metrics import MetricsLogger, evaluate
 
 # we assume the adversary has black-box access to the model's outputs on a given datapoint, 
 # but including the full output distribution and loss values with respect to a target label.
